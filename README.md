@@ -6,6 +6,8 @@ A simple CMake wrapper for [tinyply](https://github.com/ddiakopoulos/tinyply).
 Installation
 ------------
 
+    $ # Clone the tinyply-cmake repository
+    $ cd tinyply-cmake
     $ git submodule init
     $ git submodule update
     $ mkdir /tmp/build
@@ -30,4 +32,4 @@ Put the following in your project's `CMakeLists.txt`.
 Invoke CMake with `CMAKE_PREFIX_PATH` containing the path to the
 tinply-cmake installation prefix.
 
-    $ cmake -DCMAKE_PREFIX_PATH=/path/to/tinply-cmake/prefix ...
+    $ cmake -DCMAKE_PREFIX_PATH=/path/to/tinply-cmake/install/prefix ...
